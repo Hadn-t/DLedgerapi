@@ -167,9 +167,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Development settings only - remove in production
 DEBUG = True
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', "https://d-ledger-sand.vercel.app/",
-  "https://d-ledger-nishants-projects-3cb936f0.vercel.app/",
-  "https://d-ledger-0264nishu-gmailcom-nishants-projects-3cb936f0.vercel.app/"]
+ALLOWED_HOSTS = [
+    "dledgerapi.onrender.com",  # Your Render domain
+    "localhost",
+    "127.0.0.1"
+]
+
 
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True
