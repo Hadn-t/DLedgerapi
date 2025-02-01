@@ -12,14 +12,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import json
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-# CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOWED_ORIGINS = [
-    os.getenv('FRONTEND_URL')
-]
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
