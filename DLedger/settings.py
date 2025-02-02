@@ -170,7 +170,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "dledgerapi.onrender.com",  # Your Render domain
     "localhost",
-    "127.0.0.1"
+    "127.0.0.1",
+    "https://dledger.vercel.app/",
 ]
 
 
